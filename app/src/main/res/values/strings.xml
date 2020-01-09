@@ -1,0 +1,208 @@
+<resources>
+    <string name="app_name">Pictza</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="searchmain">Search Paintings</string>
+
+    <string name="logout">Logout</string>
+    <string name="ids">ID</string>
+    <string name="names">Name</string>
+    <string name="emails">Email</string>
+
+    <string name="update">Update Users</string>
+
+    <string name="addto">Painting Details</string>
+
+    <string name="carta">Add to Cart</string>
+
+    <string name="ad">admin</string>
+
+    <string name="edit1">Update</string>
+    <string name="remove1">Remove</string>
+    <string name="imageupload">Upload Image</string>
+
+    <string name="up">Update Item</string>
+    <string name="re">Remove</string>
+
+    <string name="quan">Quantity</string>
+    <string name="addtocart">Add Paintings to Cart</string>
+    <string name="viewcart">View Items in Cart</string>
+
+    <string name="editShow">Update Shows</string>
+    <string name="editShows">Update Show</string>
+    <string name="removeShows">Remove Show</string>
+
+    <string name="back">Back</string>
+    <string name="addPaining">Add New Painting</string>
+    <string name="managePaining">Manage Paintings</string>
+
+    <string name="uploadpaint">Upload Painting</string>
+
+    <string name="title2">Title</string>
+    <string name="pricepaint">Price</string>
+
+    <string name="editpaint">Update Painting</string>
+    <string name="edittt">Update</string>
+
+    <string name="location2">Location</string>
+    <string name="date">Date</string>
+
+    <string name="home1">Home</string>
+
+    <string name="view">View Users</string>
+    <string name="edit">Edit Users</string>
+    <string name="remove">Remove Users</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="user">Users</string>
+    <string name="paint">Paintings</string>
+    <string name="cartitem">Cart</string>
+
+    <string name="create">SignUp</string>
+    <string name="cat">Categories</string>
+
+    <string name="customer">Customer</string>
+    <string name="seller">Seller</string>
+
+    <string name="regcus">Create an Account</string>
+    <string name="regart">Create an Account as a Artist</string>
+
+    <string name="cart">My Cart</string>
+    <string name="iname">Name</string>
+    <string name="con">Confirm Password</string>
+
+    <string name="showshome">Shows</string>
+    <string name="auchome">Auctions</string>
+
+    <string name="priceitem">Price</string>
+    <string name="see">See More</string>
+
+    <string name="buy">Buy Now</string>
+
+    <string name="quo">\" The painting has a life of its own. We try to let it come through. \"</string>
+
+    <string name="search">Search Paintings</string>
+
+    <string name="enterprice">Place Your Bid</string>
+
+    <string name="abs">Abstract</string>
+    <string name="portrait">Portrait</string>
+    <string name="nature">Nature</string>
+
+    <string name="discover">Discover Paintings</string>
+
+    <string name="type">Choose an Account Type</string>
+
+    <string name="viewall">View All Paintings</string>
+
+    <string name="cartitem1">Centrifuge II</string>
+    <string name="cartitemdes1">Limited Edition 24" x 30"</string>
+
+    <string name="cartitem2">Tidal Current III</string>
+    <string name="cartitemdes2">Limited Edition 22" x 22"</string>
+
+    <string name="cartitem3">Impulse</string>
+    <string name="cartitemdes3">Limited Edition 20" x 20"</string>
+
+    <string name="price1">$240.00</string>
+    <string name="price2">$540.00</string>
+    <string name="price3">$880.00</string>
+
+    <string name="pricetot">$1660.00</string>
+
+    <string name="tot">Total</string>
+
+    <string name="nxt">Next</string>
+    <string name="prev">Previous</string>
+
+    <string name="check">Checkout</string>
+    <string name="auction">Buy Paintings from Auction</string>
+
+    <string name="bid">Bid Now</string>
+    <string name="time">Time Left</string>
+    <string name="lst">Min. Bid Price</string>
+    <string name="lstprice">$20.02</string>
+
+    <string name="buynow">Buy Now</string>
+    <string name="addcart">Add to Cart</string>
+
+    <string name="location">Location</string>
+    <string name="dateshow">Date</string>
+    <string name="timeshow">Time</string>
+    <string name="imageshow">Upload an Image</string>
+    <string name="showdesc">Description</string>
+    <string name="choose">Choose</string>
+    <string name="adds">Add the Show</string>
+
+    <string name="locc2">At Street Art - England</string>
+
+    <string name="nameartist">Pablo Picaso</string>
+    <string name="artistlbl">Artist</string>
+
+    <string name="addbuynow">Add to Buy it Now</string>
+    <string name="addauction">Add to Auction</string>
+
+
+    <string name="upload">Upload Paintings</string>
+    <string name="title">Title</string>
+    <string name="category">Category</string>
+    <string name="des">Description</string>
+    <string name="price">Price</string>
+    <string name="img">Upload an image of the painting</string>
+    <string name="auc">Auction</string>
+    <string name="Sell">Sell it Now</string>
+    <string name="photo">Photo</string>
+
+    <string name="minbid">Minimum Bid</string>
+    <string name="managepainting">Manage Your Paintings</string>
+
+    <string name="publish">Publish Item</string>
+
+    <string name="timeauc">Time Duration</string>
+
+
+    <string name="manage">Manage Your Shows</string>
+
+    <string name="addimage">Add New Painting</string>
+    <string name="addshow">Add New Art Show</string>
+
+    <string name="shows">Worldwide Art Shows</string>
+    <string name="showsadd">Add Worldwide Art Shows</string>
+
+    <string name="dessccshow">It is a rich reflection of Sri Lankan history and culture. Good place, location wise it is near the Central Park near independence square, great bistros and small yet great eateries.</string>
+
+    <string name="dateshow1">12th July 2019 9.00 A.M Onwards</string>
+
+    <string name="loc1">At National Art Gallery - Colombo</string>
+    <string name="count">01:20:38</string>
+    <string name="descrip">Item Description</string>
+    <string name="itemname">Item Details</string>
+
+    <string name="itemdes1">Abstract Art Landscape Metallic Gold Textured Painting Eye Of The Universe By Madart is a painting by Megan Duncanson</string>
+
+    <string name="home">This is Home Screen</string>
+    <string name="copyright">Copyright © 2019</string>
+    <string name="teamcopy">© 2019 Art Freshers</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+
+</resources>

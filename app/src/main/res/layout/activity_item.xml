@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".item">
+
+    <Button
+        android:id="@+id/login2"
+        android:layout_width="131dp"
+        android:layout_height="56dp"
+        android:layout_gravity="start"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="628dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="47dp"
+        android:background="@drawable/rounded_button"
+        android:enabled="true"
+        android:fontFamily="@font/poppins_light"
+        android:onClick="openpayment"
+        android:text="@string/buynow"
+        android:textColor="#242222"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="178dp"
+        android:layout_height="34dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="@string/descrip"
+        android:textColor="#1D1D1D"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/cardView13"
+        app:layout_constraintEnd_toEndOf="@+id/cardView13"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="@+id/cardView13"
+        app:layout_constraintTop_toTopOf="@+id/cardView13"
+        app:layout_constraintVertical_bias="0.054" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView13"
+        android:layout_width="333dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="453dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="153dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="-1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="104dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="228dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="@string/price1"
+        android:textColor="#202020"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/cardView12"
+        app:layout_constraintTop_toTopOf="@+id/cardView12" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="177dp"
+        android:layout_height="41dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="@string/cartitem2"
+        android:textColor="#202020"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/cardView12"
+        app:layout_constraintEnd_toEndOf="@+id/cardView12"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="@+id/cardView12"
+        app:layout_constraintTop_toTopOf="@+id/cardView12"
+        app:layout_constraintVertical_bias="0.938" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView12"
+        android:layout_width="332dp"
+        android:layout_height="285dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="123dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="323dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="-1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="match_parent"
+            android:layout_height="218dp"
+            app:srcCompat="@drawable/itemdet" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="345dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="581dp"
+        android:fontFamily="@font/poppins_light"
+        android:gravity="center"
+        android:text="@string/itemname"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.197" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="315dp"
+        android:layout_height="75dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="@string/itemdes1"
+        android:textColor="#1B1B1B"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/cardView13"
+        app:layout_constraintEnd_toEndOf="@+id/cardView13"
+        app:layout_constraintHorizontal_bias="0.777"
+        app:layout_constraintStart_toStartOf="@+id/cardView13"
+        app:layout_constraintTop_toTopOf="@+id/cardView13"
+        app:layout_constraintVertical_bias="0.78" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="68dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="626dp"
+        android:layout_marginEnd="201dp"
+        android:layout_marginBottom="47dp"
+        android:onClick="opencartitem"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/addcart" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="75dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="626dp"
+        android:layout_marginEnd="297dp"
+        android:layout_marginBottom="44dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/love" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,57 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!--suppress AndroidDomInspection -->
+    <style name="table_row_tView1" >
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">#FFFFFF</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">23sp</item>
+
+    </style>
+    <style name="table_row_tView2">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:color">#FFFFFF</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">23sp</item>
+
+    </style>
+
+    <style name="table_row_tView3">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">35dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:colorBackground">#FFFFFF</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">23sp</item>
+
+    </style>
+
+
+</resources>

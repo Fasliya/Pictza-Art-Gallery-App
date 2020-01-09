@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PaintingSearch">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
+
+        <SearchView
+            android:id="@+id/view_drug_search2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="#FFFFFF" />
+    </LinearLayout>
+
+    <TableLayout
+        android:id="@+id/view_table"
+        android:layout_width="match_parent"
+        android:layout_height="650dp">
+
+        <TableRow
+            style="@style/tableRow"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:divider="@android:drawable/bottom_bar">
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="15dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+
+                android:background="#EEEEEE"
+                android:gravity="center_horizontal"
+                android:text="@string/ids"
+                android:textColor="#251D1D"
+                android:textIsSelectable="false"
+                android:textSize="20sp"
+                app:fontFamily="sans-serif-black" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="5dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="#EEEEEE"
+                android:gravity="center_horizontal"
+                android:text="@string/title2"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                app:fontFamily="sans-serif-black" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="35dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="#EEEEEE"
+                android:gravity="center_horizontal"
+                android:text="@string/pricepaint"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                app:fontFamily="sans-serif-black" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

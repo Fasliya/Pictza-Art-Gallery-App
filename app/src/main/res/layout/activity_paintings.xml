@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".paintings">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="496dp"
+        android:layout_marginEnd="146dp"
+        android:layout_marginBottom="115dp"
+        android:contentDescription="@string/remove"
+        android:onClick="home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/home" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="202dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="616dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/poppins_light"
+        android:gravity="center"
+        android:onClick="home"
+        android:text="@string/home1"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="146dp"
+        android:layout_marginBottom="572dp"
+        android:onClick="add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/addphoto" />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="266dp"
+        android:layout_marginEnd="146dp"
+        android:layout_marginBottom="345dp"
+
+        android:onClick="manage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/editshoww" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="255dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="386dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="260dp"
+        android:fontFamily="@font/poppins_light"
+        android:gravity="center"
+
+        android:onClick="manage"
+        android:text="@string/managePaining"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="249dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="166dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="476dp"
+        android:fontFamily="@font/poppins_light"
+        android:gravity="center"
+        android:onClick="add"
+        android:text="@string/addPaining"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

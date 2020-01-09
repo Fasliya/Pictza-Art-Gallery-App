@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "583305787879",
+    "firebase_url": "https://pictza-bb6b7.firebaseio.com",
+    "project_id": "pictza-bb6b7",
+    "storage_bucket": "pictza-bb6b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583305787879:android:973c7c414ab4c579006542",
+        "android_client_info": {
+          "package_name": "com.example.pictza"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "583305787879-uo1facfe6ufqbplfbs1ljvi5pmacig7b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pictza",
+            "certificate_hash": "993189731a9f7fd0334358dcdef8190243c4faf9"
+          }
+        },
+        {
+          "client_id": "583305787879-hond3qp6tujbui3doaorkp3q1lorvgfv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pictza",
+            "certificate_hash": "5d39a88c2e9ff588a6c4241a0b8837d318facce2"
+          }
+        },
+        {
+          "client_id": "583305787879-g6kad88lfi76iglvsjoou1b8pekf1kjb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTJULyCgpp70vvQubEJ9Tl1100qRLPM1Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "583305787879-g6kad88lfi76iglvsjoou1b8pekf1kjb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
